@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@keyframes project_1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+@keyframes project_2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 97%;
+    }
+}
+
+@keyframes project_3 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 38%;
+    }
+}
+
+@keyframes project_4 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 82%;
+    }
+}
+
+
+@keyframes project_5 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 67%;
+    }
+
+}
+
+@keyframes project_6 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 77%;
+    }
+
+}
+
+@keyframes fadedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+@keyframes index-link-active {
+    0% {
+        transform: rotateX(0) rotateY(0) translateZ(0)
+    }
+
+    16% {
+        transform: rotateX(10deg) rotateY(5deg) translateZ(32px)
+    }
+
+    to {
+        transform: rotateX(0) rotateY(0) translateZ(65px)
+    }
+}
+
+
+@keyframes scoll {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+@keyframes menu {
+    from {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        border: 1px solid #fff;
+        width: 10%;
+        height: 50px;
+        z-index: 2333;
+        font-size: 8px;
+    }
+
+    to {
+        position: fixed;
+        bottom: 0;
+        right: 60px;
+        border: 1px solid #fff;
+        width: 10%;
+        height: 50px;
+        z-index: 2333;
+        font-size: 8px;
+    }
+}

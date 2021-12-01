@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	background-color: #212121;
+	width: 1150px;
+	color: #fff;
+}
+nav {
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+    z-index: 2333;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    vertical-align: middle;
+    font-family: Microsoft YaHei;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: 0.4;
+    vertical-align: middle;
+}
+
+nav a.active,
+nav a:hover {
+    text-decoration: underline;
+    opacity: 1
+}
+
+nav a.clip {
+    height: 3px;
+    width: 3px;
+    background: #fff;
+    border-radius: 100%
+}
+
+.register-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.register-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.register-box .user-box {
+    position: relative;
+}
+
+.register-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+
+
+.register-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+}
+
+.register-box .user-box input:focus~label {
+    top: -20px;
+    left: 0;
+    color: rosybrown;
+    font-size: 12px;
+}
+
+.register-box form a {
+    text-decoration: none;
+}
+
+.register-box form a .btn {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+    transition: all .5s;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    ;
+}
+
+.register-box form a .btn:hover {
+    letter-spacing: 0.6em;
+}

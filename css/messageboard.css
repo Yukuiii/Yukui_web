@@ -1,0 +1,124 @@
+body {
+    background-color: inherit;
+    background-image: url('../imgs/background3.jpg');
+    background-size: cover;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+.c{
+    clear: both;
+}
+
+nav {
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+    z-index: 2333;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    vertical-align: middle;
+    font-family: Microsoft YaHei;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: 0.4;
+    vertical-align: middle;
+}
+
+nav a.active,
+nav a:hover {
+    text-decoration: underline;
+    opacity: 1
+}
+
+nav a.clip {
+    height: 3px;
+    width: 3px;
+    background: #fff;
+    border-radius: 100%
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.box h2 {
+    text-align: center;
+}
+.box .user_box{
+    margin-top: 20px;
+   
+
+}
+
+.box form h2{
+    text-align: left;
+}
+
+.box .user_box input {
+    width: 80%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    background: transparent;
+    float: right;
+}
+
+.box .user_box h2{
+    margin-bottom: 31px;
+    float: left;
+}
+
+.box .text textarea{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    margin-top: 30px;
+    resize: none;;
+    font-family: "微软雅黑";
+}
+
+.box form a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.box form a .btn {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+    transition: all .5s;
+    text-align: center;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-top: 30px;
+    letter-spacing: .3em;
+    margin:30px auto;
+}
+
+
+.box form a .btn:hover{
+    letter-spacing: .6em;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/journal.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="icon-css/f.css">
+    <link rel="icon" href="imgs/logo.png">
+    <title>欧阳 | Journal</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <i class="iconfont icon-addition menu" id="show"></i>
+    <div class="menu_box" id="menu_box">
+        <a href="login.html">
+            <div class="login">
+                <i class="iconfont icon-becomeagoldsupplier"></i>
+            </div>
+        </a>
+        <a href="register.html">
+            <div class="register">
+                <i class="iconfont icon-bussiness-man"></i>
+            </div>
+        </a>
+        <div class="rolltop">
+            <i class="iconfont icon-rising" id="rolltop"></i>
+        </div>
+    </div>
+    <nav>
+        <a href="main.html">Index</a>
+        <a class="clip"></a>
+        <a href="time line.html">Time line</a>
+        <a href="journal.html" class="active">Journal</a>
+        <a href="message board.html">Message board</a>
+        <a class="clip"></a>
+        <a href="https://yukuii.top">Blog</a>
+    </nav>
+    <div class="main">
+        <div class="intro ch">
+            <div class="container">
+                <div class="hello">
+
+                    <h1>Discovery
+                        <br> 发现每一天的精彩</h1>
+                    <h2>
+                        <div class="hello_1">
+                            <span id="hello1"></span>
+                            <span id="hello2"></span>
+                            <span id="hello3"></span>
+                            欧阳泽宇|Oy
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="main_about">
+            <div class="container">
+                <h2 class="chtitle">
+                    发现 | <span id="chtitle_1">Discovery</span>
+                </h2>
+                <div class="clear">
+                    <a href="">
+                        <div class="news">
+                            <div class="info">
+                                <img src="icon/time-clock.png" style="height: 20px;width: 20px;">
+                                <p>发布于2021-11-20</p>
+                                <h5>利用Github和Jsdelivr搭建免费图床和文件床</h5>
+                                <div class="icon">
+                                    <img src="icon/view.png" style="height: 20px;width: 20px;">
+                                    <span>362热度</span>
+                                    <img src="icon/comments.png" style="height: 20px;width: 20px;">
+                                    <span>40条评论</span>
+                                    <img src="icon/folder.png" style="height: 20px;width: 20px;">
+                                    <span>文章</span>
+                                </div>
+                                <div class="intro">
+                                    1.首先我们得知道什么是CDN？
+                                    全称:Content Delivery Network或Content Ddistribute Network，即内容分发网络
+                                    内容分发网络（Content Delivery Network，简称CDN）是建立并覆盖在承载网之上，由分布在不同区域的边缘节点服务器群组成的分布式网络。
+                                    CDN应用广泛，支持多种行业、多种场景内容加速，例如：图片小文件、大文件下载、视音频点播、直播流媒体、全站加速、安全加速......
+                                </div>
+                            </div>
+                            <div class="img_1">
+                                <img class="img_1_sc" src="imgs/1.jpg" style="width: 100%;height: 100%;">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="news">
+                            <div class="info">
+                                <img src="icon/time-clock.png" style="height: 20px;width: 20px;">
+                                <p>发布于2021-11-23</p>
+                                <h5>Java获取图片的三种方式</h5>
+                                <div class="icon">
+                                    <img src="icon/view.png" style="height: 20px;width: 20px;">
+                                    <span>173热度</span>
+                                    <img src="icon/comments.png" style="height: 20px;width: 20px;">
+                                    <span>18条评论</span>
+                                    <img src="icon/folder.png" style="height: 20px;width: 20px;">
+                                    <span>文章</span>
+                                </div>
+                                <div class="intro">
+
+
+                                    一.使用javax.imageio包下ImageIO类的read（）方法
+                                    1.Image image = ImageIO.read(new FileInputStream(“文件路径”));
+                                    2.Image image = ImageIO.read(new File（）);
+                                    3.Image image = ImageIO.read(new URL（）));
+
+                                    二.使用Toolkit类下的getImage（）方法
+                                    1.Toolkit.getDefaultToolkit().getImage(“图片路径”)；
+
+                                    .....
+
+                                </div>
+                            </div>
+                            <div class="img_1">
+                                <img class="img_1_sc" src="imgs/2.jpg" style="width: 100%;height: 100%;">
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <h3>Yukui</h3>
+            <p>蘑菇森林的尽头，新世界的起点</p>
+            <p class="c"><a href="">@Say hello to me</a> </p>
+            <p class="b">归2020级欧阳泽宇所有
+                未经许可不可复制、更改<br>
+                E-mail:472619563@qq.com<br>
+                联系电话：18046751842
+            </p>
+        </div>
+    </div>
+
+
+
+    <script src="js/page.3a0791a3.js"></script>
+    <script type="text/javascript" src="js/stats.js" charset="UTF-8"></script>
+    <script>
+        var id = document.getElementById("show");
+        var cl = document.getElementById("menu_box")
+        var rolltop = document.getElementById("rolltop")
+        id.onclick = function () {
+            if (cl.style.display == "none") {
+                cl.style.display = "block";
+            } else {
+                cl.style.display = "none";
+            }
+        }
+        rolltop.onclick = function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+    </script>
+    <audio autoplay>
+        <source src="http://music.163.com/song/media/outer/url?id=1895386442.mp3">
+    </audio>
+</body>
+
+</html>
